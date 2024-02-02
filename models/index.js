@@ -12,7 +12,7 @@
 
 // module.exports = { User, Blog};
 const User = require('./user');
-const Blog = require('./blog');
+const Blog = require('./Blog');
 
 User.hasMany(Blog, {
     foreignKey: 'user_id',
